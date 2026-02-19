@@ -31,10 +31,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&tp TAB EQUAL   &kp W  &kp L  &kp Y              &kp P                        &kp B        &kp Z  &kp F  &kp O      &kp U      &kp SQT     &tp MINUS NON_US_BACKSLASH
-&kp LCTRL       &kp C  &kp R  &kp S              &kp T                        &kp G        &kp M  &kp N  &kp E      &kp I      &kp A       &lt 1 SEMICOLON
-&kp LEFT_SHIFT  &kp Q  &kp J  &kp V              &kp D                        &kp K        &kp X  &kp H  &kp SLASH  &kp COMMA  &kp PERIOD  &tp RIGHT_SHIFT ENTER
-                              &tp LGUI LEFT_ALT  &tp BACKSPACE LC(BACKSPACE)  &kp SPACE    &to 1  &to 2  &to 3
+&tp TAB EQUAL                &kp W  &kp L  &kp Y              &kp P                        &kp B        &kp Z  &kp F  &kp O      &kp U      &kp SQT     &tp MINUS NON_US_BACKSLASH
+&mt LA(LEFT_CONTROL) ESCAPE  &kp C  &kp R  &kp S              &kp T                        &kp G        &kp M  &kp N  &kp E      &kp I      &kp A       &lt 1 SEMICOLON
+&kp LEFT_SHIFT               &kp Q  &kp J  &kp V              &kp D                        &kp K        &kp X  &kp H  &kp SLASH  &kp COMMA  &kp PERIOD  &tp RIGHT_SHIFT ENTER
+                                           &tp LGUI LEFT_ALT  &tp BACKSPACE LC(BACKSPACE)  &kp SPACE    &to 1  &to 2  &to 3
             >;
         };
 
